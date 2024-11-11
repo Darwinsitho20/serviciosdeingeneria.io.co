@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto - Desarrollador Web</title>
+    <style>
+        /* Estilos globales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1c1c;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            color: #f0e68c;
+            font-size: 3rem;
+        }
+
+        .contact-section {
+            margin-top: 40px;
+        }
+
+        .contact-section h2 {
+            font-size: 2.5rem;
+            color: #f0e68c;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info strong {
+            color: #f0e68c;
+        }
+
+        .circles-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #a9a9a9;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .circle a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #a9a9a9;
+        }
+
+        /* Estilo para el botón de contacto */
+        .contact-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #f0e68c;
+            color: #1c1c1c;
+            padding: 15px 25px;
+            border-radius: 50px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .contact-button:hover {
+            background-color: #d4c246;
+        }
+
+        /* Responsividad */
+        @media screen and (max-width: 768px) {
+            .contact-section h2 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                font-size: 1rem;
+            }
+
+            .contact-button {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .contact-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                font-size: 0.9rem;
+            }
+
+            .contact-button {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>INNOVA</h1>
+            </div>
+        </header>
+
+        <main>
+            <section class="contact-section">
+                <h2>Contacto</h2>
+                <div class="contact-info">
+                    <p><strong>Empresa:</strong> INNOVA S.A.S</p>
+                    <p><strong>NIT:</strong> 9975836849-7</p>
+                    <p><strong>Administrador:</strong> Darwin Hortega Gonzalez</p>
+                    <p><strong>Profesión:</strong> Ingeniero Informatico</p>
+                    <p><strong>Posgrados:</strong> Esepcialización en Dirección y Gestión de Proyectos, Maestría en Dirección y Administración de Empresas, Maestría en Infraestructura e Ingenería Civil, Mestría en Gestión Ambiental y Energetica</p>
+                    <p><strong>Numero de Teléfono:</strong> +57 300 1234567</p>
+                    <p><strong>Dirección:</strong> Calle Tanto #123, Bogotá D.C., Colombia</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 dunk180.com</p>
+        </footer>
+
+        <a href="index.html" class="contact-button">Volver</a>
+    </div>
+
+    <!-- Círculos con enlaces -->
+    <div class="circles-container">
+        <div class="circle">
+            <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr">
+                <img src="https://store-images.s-microsoft.com/image/apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9" alt="Imagen 1">
+            </a>
+        </div>
+        <div class="circle">
+            <a href="https://www.whatsapp.com/?lang=es_LA">
+                <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN" alt="Imagen 2">
+            </a>
+        </div>
+        <div class="circle">
+            <a href="https://www.instagram.com/?hl=es">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Imagen 3">
+            </a>
+        </div>
+        <div class="circle">
+            <a href="https://www.tiktok.com/es/">
+                <img src="https://paginaswebenguadalajara.com.mx/wp-content/uploads/2021/07/tik-tok-marketing.jpg" alt="Imagen 4">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
