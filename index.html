@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios de Ingenería</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Contenedor principal */
+    .container {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+    }
+
+    /* Imagen de fondo */
+    .background-image {
+      background: url('https://static-cse.canva.com/blob/1772205/1600w-6TcvJF8-DLI.jpg') no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Botón Ver Catálogo */
+    .catalog-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #FF5733;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s;
+    }
+
+    .catalog-button:hover {
+      background-color: #C13E20;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Imagen de fondo -->
+    <div class="background-image"></div>
+
+    <!-- Botón Ver Catálogo con redirección -->
+    <a href="vercatalogo.html" class="catalog-button">Ver catálogo</a>
+  </div>
+</body>
+</html>
